@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html manifest="sparrowz.appcache"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="How to play the Sparrowz scavenger hunts.">
+    <meta name="keywords" content="RIO, POKEMON, POKE MON,Sparrowz, SparrowzApp, IndiSparrow, Explore, Travel, Discover, Search, App, treasure+hunt, sparrow, sparrows">
+    <title>How to play - Sparrowz</title>
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/sparrowz_57x57.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/sparrowz_72x72.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/sparrowz_114x114.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/sparrowz_144x144.png">
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/fontello/css/fontello.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_1.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_2.css" rel="stylesheet">
+    
+    <!-- SPECIFIC CSS -->
+    <!-- <link rel="stylesheet" href="css/weather.css" > -->
+    
+    <!-- Google web fonts -->
+  <!--  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+    <link href='css/fonts.css' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-77455759-4', 'auto');
+         ga('send', 'pageview');
+    </script>     
+</head>
+<body style="background:white;">
+
+<!--[if lte IE 8]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+<![endif]-->
+
+    <div id="preloader">
+        <div class="sk-spinner sk-spinner-wave">
+            <div class="sk-rect1"></div>
+            <div class="sk-rect2"></div>
+            <div class="sk-rect3"></div>
+            <div class="sk-rect4"></div>
+            <div class="sk-rect5"></div>
+        </div>
+    </div>
+    <!-- End Preload -->
+
+    <div class="layer"></div>
+    <!-- Mobile menu overlay mask -->
+
+    <!-- Header================================================== -->
+    <header id="plain">
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                     <div id="logo_home">
+                        <h1><a href="index.html" title="Sparrowz App">Sparrowz App</a></h1>
+                    </div>
+                </div>
+                <nav class="col-md-9 col-sm-9 col-xs-9">
+                    <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
+                    <div class="main-menu">
+                        <div id="header_menu">
+                            <img class="sparrowz-logo" src="img/logo_sticky.png" width="160" height="34" alt="Sparrowz App" data-retina="true">
+                        </div>
+                        <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
+                        <ul>
+
+                            <li class="submenu">
+                                <a href="index.html" onclick="homePage()"><b>Home</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="events.html" onclick="eventsPage()"><b>Events&nbsp;<i><img src="img/new.png" alt="new"></i></b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="howtoplay.html" class="menu_style" onclick="howtoplayPage()"><b>How to Play</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="download.html" onclick="downloadPage()"><b>Download</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="contact_us.html" onclick="contactPage()"><b>Contact</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="http://www.sparrowzapp.com/blog/" target="_blank" onclick="blogPage()"><b>Blog</b></a>
+                            </li>
+                        </ul>
+                    </div><!-- End main-menu -->
+                    <!-- <ul id="top_tools">
+                        <li>
+                            <div class="dropdown dropdown-search">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
+                                <div class="dropdown-menu">
+                                    <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search...">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button" style="margin-left:0;">
+                                            <i class="icon-search"></i>
+                                            </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div><!-- container -->
+    </header><!-- End Header -->
+    
+    
+<!-- <section class="parallax-window" data-parallax="scroll" data-image-src="img/header_bg.jpg" data-natural-width="1400" data-natural-height="470">
+    <div class="parallax-content-1">
+        <div class="animated fadeInDown">
+        <h1>How to Play</h1>
+        <p></p>
+        </div>
+    </div>
+</section> --><!-- End Section -->
+
+<div class="container margin_60">
+	<div class="main_title">
+        <br/>
+		<h2>What's&nbsp;<span>Sparrowz&nbsp;</span>app?</h2>
+        <br/>
+		<p>
+			Sparrowz app allows gamification of events through scavenger hunts.
+        </p>
+	</div>
+	<hr>
+    <div class="row">
+        <div class="col-md-6 col-sm-6">
+           <iframe width="450" height="250" src="https://www.youtube.com/embed/aDZGPSx0E4I?rel=0" class="youtube_clip">
+           </iframe>
+        </div>
+        <div class="col-md-6 col-sm-6">
+            <h3><span>Get started</span> with Sparrowz</h3>
+            <p>If you are interested to give it a try, then do the following:</p>
+            <ul class="list_order">
+                <li><span>1</span>Download our Sparrowz app</li>
+                <li><span>2</span>Choose a game you like</li>
+                <li><span>3</span>Play the scavenger hunt & discover more</li>
+            </ul>
+            <a href="download.html" class="btn_1" onclick="getStarted()">Start now</a>
+        </div>
+    </div>
+    <hr>
+	<div class="row">
+		<div class="col-md-4 col-sm-6">
+			<img src="img/sparrowz-play.jpg" alt="Image" class="img-responsive styled">
+		</div>
+		<div class="col-md-7 col-md-offset-1 col-sm-6">
+			<h3>What you can do with&nbsp;<span>Sparrowz&nbsp;</span>?</h3>
+			<p class="about-content">
+                <ul style="list-style-type:disc" class="list_content">
+                    <li><b>Local Area Discovery</b> – Find hunts near you and discover the hidden treasures around you.</li>
+                    <li><b>Venue Discovery</b> – Can be organized at a known or unknown venue like Library, Museums, Office buildings, Residences, Party Area, Resorts, Hotels, etc. for a discovery/challenge experience.</li>
+                    <li><b>Outdoor / Indoor events</b> for team building.</li>
+                    <li><b>Induction/Orientation/On boarding programs</b> for new hires/students at office/colleges/schools.</li>
+                    <li>Building <b>curated travel programs</b> for your guests.</li>
+                    <li><b>Personal events</b> for a get together or festival celebrations.</li>
+                    <li><b>Conferences</b> – Get participants involved and visit every vendor in a exciting way and offer rewards.</li>
+                    <li><b>Brand/Product launch.</b></li>
+                    <li><b>Multi activity Quiz</b> against the conventional Q&A types.</li>
+                    <li>Create <b>treasure hunts</b> and Challenge your friends.</li>
+                    <li>And Many More…</li>
+                </ul>
+			</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row feature_content">
+        <div class="col-md-8">
+			<h3>What can you expect from&nbsp;<span>Sparrowz&nbsp;</span>App?</h3>
+			<p class="about-content">
+				Sparrowz app challenges with various missions/activities which makes the scavenger hunt more engaging one.
+			</p>
+            <h5>Decode the clues, Discover the location &</h5>
+			<div class="general_icons">
+				<ul>
+					<li><i class="icon-camera" title="Take a selfie"></i>Take a Selfie</li>
+					<li><i class="icon-location-1" title="Checks your location with the answer"></i>Check In</li>
+					<li><i class="icon-picture" title="Take a similar picture as asked in question"></i>Take a Picture</li>
+					<li><i class="icon-qrcode" title="Go to the place & Scan the QR code"></i>QR Scan</li>
+					<li><i class="icon-puzzle" title="Solve the simple picture puzzle"></i> Solve Jigsaw</li>
+					<li><i class="icon-check-2" title="Find correct answer from the options given to you"></i>MCQ</li>
+					<li><i class="icon-pencil-3" title="Find the correct answer. Remember No choices"></i>Word</li>
+				</ul>
+			</div>
+        </div>
+        <div class="col-md-4">
+            <img src="img/challenges.jpg" alt="Image" class="img-responsive styled">
+        </div>
+	</div>
+	<!-- End row -->
+	<hr>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/sparrowz-2.jpg" alt="Image" class="img-responsive styled">
+		</div>
+		<div class="col-md-7 col-md-offset-1">
+			<h3>How to&nbsp;<span>Play</span></h3>
+			<p>
+				<ul style="list-style-type:disc">
+                    <li><b>Login / Register</b></li><p class="instructions">Register for a new account or login with an existing account in <b>Sparrowz</b>. You can also register with your facebook account.</p>
+                    <li><b>Select a game you like</b></li><p class="instructions">For your city, there will be a list of games in "Browse Hunt" section. Select a game you like. If your city is not listed, select a city from the option given to you and play the game.</p>
+                    <li><b>Play & Discover</b></li><p class="instructions">Play the game and discover new places for yourself. May be, you may get something new to learn.</p>
+                    <li><b>Share your experience</b></li><p class="instructions">In the gameplay end, you are asked to give feedback along with response. Kindly, share your experience with us.</p>
+                    <li><b>GloryBoard</b></li><p class="instructions">After the game, your score along with your position in glory board of that game is shown to you. You can check the same in "GloryBoard" section.</p>
+                </ul>
+			</p>
+		</div>
+	</div>
+	<!-- End row -->
+
+</div><!-- End container -->            
+        <footer>
+        <div class="container">
+                <div class='row'>
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner">
+                        <!-- Quote 1 -->
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                            <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Loved the running and adventure part!!!&nbsp;<b>"</b></p>
+                                            <small>Akshata</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        <!-- Quote 2 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;The cultural part and getting to know so many things about cubbon park.&nbsp;<b>"</b></p>
+                                            <small>Angely</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        <!-- Quote 3 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Really nice. Something rare and new. Didn't know we knew so little about the everyday structures we pass by. Amazed.&nbsp;<b>"</b></p>
+                                            <small>Sarthak</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 4 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Exploring the park & discovering things that we hadn't done before.&nbsp;<b>"</b></p>
+                                            <small>Almas Ahmed</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 5 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Was a thrilling experience. Would love to attend more of it.&nbsp;<b>"</b></p>
+                                            <small>Upasna</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 6 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;The part that we walked the whole park to find things. This is the first time I explored the park completely.&nbsp;<b>"</b></p>
+                                            <small>Arun</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 7 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Super. 7896 steps inside cubbon park. Enjoyed 90 mins.&nbsp;<b>"</b></p>
+                                            <small>Akshay Vaidian</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 8 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Was so much fun running all around a beautiful park and doing interesting tasks.&nbsp;<b>"</b></p>
+                                            <small>Payal</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div><!-- Quote 9 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Truly fascinating hunt. Learn, have fun and connect with the real world...&nbsp;<b>"</b></p>
+                                            <small>Randhir Mishra</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    <!-- Carousel Buttons Next/Prev -->
+                        <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> -->
+                    </div>                             
+                </div>
+            <hr style="color:white">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="https://www.facebook.com/sparrowzapp" target="_blank" onclick="iconFacebookClick()"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/SparrowzApp" target="_blank" onclick="iconTwitterClick()"><i class="icon-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/sparrowzapp/" target="_blank" onclick="iconInstagramClick()"><i class="icon-instagram"></i></a></li>
+                        </ul>
+                        <p style="padding:0px;margin:0px;">© 2016 IndiSparrow Technologies Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </footer><!-- End footer -->
+
+<div id="toTop"></div><!-- Back to top button -->
+
+ <!-- Common scripts -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/custom.min.js"></script>
+<!-- <script src="js/common_scripts_min.js"></script>
+<script src="js/functions.js"></script>
+<script src="js/ga.js"></script> -->
+</body>
+</html>

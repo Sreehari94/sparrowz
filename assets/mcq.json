@@ -1,0 +1,497 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "MCQ questions data found"
+    }
+  },
+  "body": {
+  	"mcq":[
+    	{
+    		"cityId":11,
+    		"cityName":"Rio",
+    		"mcqQuestions":[
+    			{
+    			"question":"The Christ Redeemer in Rio is 30m tall. 3rd tallest Christ(Some say as 5th) statue in the world. How wide do you think his arms strech?",
+    			"opts":[
+    				{
+    					"choice":"20m - Tall man"
+    				},
+    				{
+    					"choice":"28m - Da Vinci's perfect man"
+    				},
+    				{
+    					"choice":"35m - Micheal Phelps like"
+    				},
+                    {
+                        "choice":"30m - Symmetric as symmetric can be"
+                    }
+    			],
+    			"answer":"30m - Symmetric as symmetric can be",
+                "successMessage":"Created by French sculptor Paul Landowski, located at the peak of the 700-metre Corcovado mountain in the Tijuca Forest National Park overlooking the city of Rio. Statue of Jesus the Redeemer is 39.6 meters (130 ft) tall, including its 9.5 meters (31 ft) pedestal.It is 30 meters (98 ft) wide. It weighs 635 “tonnes.” - Weighs as much as 150 elephants.",
+                "failureMessage":"Created by French sculptor Paul Landowski, located at the peak of the 700-metre Corcovado mountain in the Tijuca Forest National Park overlooking the city of Rio. Statue of Jesus the Redeemer is 39.6 meters (130 ft) tall, including its 9.5 meters (31 ft) pedestal.It is 30 meters (98 ft) wide. It weighs 635 “tonnes.” - Weighs as much as 150 elephants."
+
+            	},
+            	{
+    			"question":"Idea of building a large statue atop Corcovado was suggested in the mid-1850s, by this Vincentian priest, to honour Princess Isabel. Who is this priest?",
+    			"opts":[
+    				{
+    					"choice":"Paul Landowski"
+    				},
+    				{
+    					"choice":"Pedro Maria Boss"
+    				},
+    				{
+    					"choice":"Princess Isabel"
+    				},
+                    {
+                        "choice":"Heitor da Silva"
+                    }
+    			],
+    			"answer":"Pedro Maria Boss",
+                "successMessage":"In 1889 the country became a republic, and due to the separation of church and state, the idea of the statue was dismissed. In 1920 the Catholic Circle of Rio organized an event called Semana do Monumento to support the building of the statue. What motivated the organization was what they perceived as 'Godlessness' in the society.",
+                "failureMessage":"Pedro Maria Boss - In 1889 the country became a republic, and due to the separation of church and state, the idea of the statue was dismissed. In 1920 the Catholic Circle of Rio organized an event called Semana do Monumento to support the building of the statue. What motivated the organization was what they perceived as 'Godlessness' in the society."
+
+            	},
+                {
+                "question":"The access tunnel to repair Christ is hidden on his left arm. How many floors does one have to climb to reach here?",
+                "opts":[
+                    {
+                        "choice":"27"
+                    },
+                    {
+                        "choice":"12"
+                    },
+                    {
+                        "choice":"16"
+                    },
+                    {
+                        "choice":"9"
+                    }
+                ],
+                "answer":"12",
+                "successMessage":"From the top of the last set of stairs, a vertical steel ladder leads to a tunnel in the statue's arm. A dark, narrow passageway then stretches all the way to the fingers. There is another access tunnel hidden in the head.",
+                "failureMessage":"12 - From the top of the last set of stairs, a vertical steel ladder leads to a tunnel in the statue's arm. A dark, narrow passageway then stretches all the way to the fingers. There is another access tunnel hidden in the head."
+
+                }    
+    		]
+    	},
+    	{
+    		"cityId":1,
+    		"cityName":"Bengaluru",
+    		"mcqQuestions":[
+    			{
+                "question":"Can you guess when the historical underground Nandishwara temple was excavated?",
+                "opts":[
+                    {
+                        "choice":"1997"
+                    },
+                    {
+                        "choice":"2011"
+                    },
+                    {
+                        "choice":"1857"
+                    },
+                    {
+                        "choice":"1752"
+                    }
+                ],
+                "answer":"1997",
+                "successMessage":"The temple which is completely built in stone and enclosed within a courtyard supported by pillars was completely buried and the land above it was a Banana orchard, a dried up old Kalyani and some plain flat land which local children used as a playground.In 1997, when construction was to start on the land, someone who claimed to be the owners and when the labourers began digging, a ‘Nandi’ or a bull’s head was sighted by local children.",
+                "failureMessage":"1997 - The temple which is completely built in stone and enclosed within a courtyard supported by pillars was completely buried and the land above it was a Banana orchard, a dried up old Kalyani and some plain flat land which local children used as a playground.In 1997, when construction was to start on the land, someone who claimed to be the owners and when the labourers began digging, a ‘Nandi’ or a bull’s head was sighted by local children."
+
+                },
+            	{
+                "question":"How do you think Malleswaram got its name?",
+                "opts":[
+                    {
+                        "choice":"Freedom fighter Malleswara"
+                    },
+                    {
+                        "choice":"Kadu Malleswara temple"
+                    },
+                    {
+                        "choice":"Raja Malleswara"
+                    },
+                    {
+                        "choice":"Olympic Winner Malleswari"
+                    }
+                ],
+                "answer":"Kadu Malleswara temple",
+                "successMessage":"Malleshwaram, Malleswaram or Malleshwara is a north-western district of Bengaluru. It was developed as a planned suburb after the great plague of 1898,which caused many people to move out of the city center.It derives its name from the Kaadu Malleshwara temple which was built in the 17th century A.D.  by Venkoji, the brother of the Maratha King Shivaji in Dravidian style of architecture.",
+                "failureMessage":"Malleshwaram, Malleswaram or Malleshwara is a north-western district of Bengaluru. It was developed as a planned suburb after the great plague of 1898,which caused many people to move out of the city center.It derives its name from the Kaadu Malleshwara temple which was built in the 17th century A.D.  by Venkoji, the brother of the Maratha King Shivaji in Dravidian style of architecture."
+
+                },
+                {
+                "question":"Which Karnataka writer/author named a fictional town in his books as he loved Malleswaram for its charm and character?",
+                "opts":[
+                    {
+                        "choice":"Arvind Adiga"
+                    },
+                    {
+                        "choice":"Anil Kumble"
+                    },
+                    {
+                        "choice":"G.S.Shivadurappa"
+                    },
+                    {
+                        "choice":"R.K Narayanan"
+                    }
+                ],
+                "answer":"R.K Narayanan",
+                "successMessage":"R.K. Narayan's fictional Malgudi town was named after  Malleshwara and Basavanagudi. As per one of the writings in R.K.  Narayan’s book, he loved Malleswaram and Basavanagudi, two prominent and  old areas of Bangalore and used the first few letters from Malleshwaram  (Mal) and last few letters of Basavanagudi (gudi) to create Malgudi.",
+                "failureMessage":"R.K. Narayan's fictional Malgudi town was named after  Malleshwara and Basavanagudi. As per one of the writings in R.K.  Narayan’s book, he loved Malleswaram and Basavanagudi, two prominent and  old areas of Bangalore and used the first few letters from Malleshwaram  (Mal) and last few letters of Basavanagudi (gudi) to create Malgudi."
+
+                }
+    		]
+    	},
+        {
+            "cityId":2,
+            "cityName":"Kochi",
+            "mcqQuestions":[
+                {
+                "question":"Which city is also known as the Queen of the Arabian Sea?",
+                "opts":[
+                    {
+                        "choice":"Idukki"
+                    },
+                    {
+                        "choice":"Kochi"
+                    },
+                    {
+                        "choice":"Palakkad"
+                    },
+                    {
+                        "choice":"Trivandrum"
+                    }
+                ],
+                "answer":"Kochi",
+                "successMessage":"Kochi also known as the Queen of the Arabian Sea, was an important spice trading centre on the west coast of India from the 14th century onward, and maintained a trade network with Arab merchants from the pre-Islamic era.",
+                "failureMessage":"Kochi is a major port city on the south-west coast of India by the Arabian Sea and the Laccadive Sea and is part of the district of Ernakulam in the state of Kerala."
+
+                },
+                {
+                "question":"Who founded the first European settlement in India at Kochi?",
+                "opts":[
+                    {
+                        "choice":" Niccolò Da Conti"
+                    },
+                    {
+                        "choice":"Zheng He"
+                    },
+                    {
+                        "choice":"Pedro Álvares Cabral"
+                    },
+                    {
+                        "choice":"Vasco da Gama"
+                    }
+                ],
+                "answer":"Pedro Álvares Cabral",
+                "successMessage":"Portuguese navigator, Pedro Álvares Cabral founded the first European settlement in India at Kochi in 1500.",
+                "failureMessage":"Portuguese navigator, Pedro Álvares Cabral founded the first European settlement in India at Kochi in 1500."
+
+                }
+            ]
+        },
+        {
+            "cityId":3,
+            "cityName":"Delhi",
+            "mcqQuestions":[
+                {
+                "question":"What are the last two stories of the minar built of? sandstone and ______?",
+                "opts":[
+                    {
+                        "choice":"Red Stone"
+                    },
+                    {
+                        "choice":"Brick Stone"
+                    },
+                    {
+                        "choice":"Marble"
+                    },
+                    {
+                        "choice":"Moon Stone"
+                    }
+                ],
+                "answer":"Marble",
+                "successMessage":"The first three storeys are made of red sandstone; the fourth and fifth storeys are of marble and sandstone.",
+                "failureMessage":"Marble it is.. The first three storeys are made of red sandstone; the fourth and fifth storeys are of marble and sandstone."
+
+                },
+                {
+                "question":"Which is the major river flowing through Delhi?",
+                "opts":[
+                    {
+                        "choice":"Ganga"
+                    },
+                    {
+                        "choice":"Yamuna"
+                    },
+                    {
+                        "choice":"Saraswathi"
+                    },
+                    {
+                        "choice":"Brahmaputra"
+                    }
+                ],
+                "answer":"Yamuna",
+                "successMessage":"The Yamuna, a sacred river in Hinduism, is the only major river flowing through Delhi. The Yamuna river was the historical boundary between Punjab and UP, and its flood plains provide fertile alluvial soil suitable for agriculture but are prone to recurrent floods.",
+                "failureMessage":"The Yamuna, a sacred river in Hinduism, is the only major river flowing through Delhi. The Yamuna river was the historical boundary between Punjab and UP, and its flood plains provide fertile alluvial soil suitable for agriculture but are prone to recurrent floods."
+                },
+                {
+                "question":"From the below, which is not a National Highway passing through Delhi?",
+                "opts":[
+                    {
+                        "choice":"NH10"
+                    },
+                    {
+                        "choice":"NH24"
+                    },
+                    {
+                        "choice":"NH1"
+                    },
+                    {
+                        "choice":"NH65"
+                    }
+                ],
+                "answer":"NH65",
+                "successMessage":"National Highway 65 (NH 65), (previously National Highway 9), is a National Highway in India. It runs along the states of Maharashtra, Karnataka, Telangana and Andhra Pradesh.",
+                "failureMessage":"National Highway 65 (NH 65), (previously National Highway 9), is a National Highway in India. It runs along the states of Maharashtra, Karnataka, Telangana and Andhra Pradesh."
+                }
+            ]
+        },
+        {
+            "cityId":4,
+            "cityName":"Mumbai",
+            "mcqQuestions":[
+                {
+                "question":"In which year Mumbai was named alpha world city?",
+                "opts":[
+                    {
+                        "choice":"1997"
+                    },
+                    {
+                        "choice":"2005"
+                    },
+                    {
+                        "choice":"2009"
+                    },
+                    {
+                        "choice":"2010"
+                    }
+                ],
+                "answer":"2009",
+                "successMessage":"Mumbai is the capital city of the Indian state of Maharashtra. It is the most populous city in India and the ninth most populous agglomeration in the world, with an estimated city population of 18.4 million.",
+                "failureMessage":" In 2009, Mumbai was named an alpha world city. It is also the wealthiest city in India, and has the highest GDP of any city in South, West, or Central Asia."
+
+                },
+                {
+                "question":"How do you think Mumbai get its name?",
+                "opts":[
+                    {
+                        "choice":"Colaba"
+                    },
+                    {
+                        "choice":"Mumbadevi"
+                    },
+                    {
+                        "choice":"Manbai"
+                    },
+                    {
+                        "choice":"Mombaym"
+                    }
+                ],
+                "answer":"Mumbadevi",
+                "successMessage":"The name Mumbai is derived from Mumbā or Mahā-Ambā—the name of the patron goddess (Kuladevi) Mumbadevi of the native Agri, Koli and Somvanshi Kshatriya communities and ā'ī meaning mother in the Marathi language, which is the mother tongue of the kolis and the official language of Maharashtra.",
+                "failureMessage":"The name Mumbai is derived from Mumbā or Mahā-Ambā—the name of the patron goddess (Kuladevi) Mumbadevi of the native Agri, Koli and Somvanshi Kshatriya communities and ā'ī meaning mother in the Marathi language, which is the mother tongue of the kolis and the official language of Maharashtra."
+                }
+            ]
+        },
+        {
+            "cityId":5,
+            "cityName":"Agra",
+            "mcqQuestions":[
+                {
+                "question":"Which is the monument that lies on the south bank of the Yamuna river?",
+                "opts":[
+                    {
+                        "choice":"Qutab minar"
+                    },
+                    {
+                        "choice":"Taj Mahal"
+                    },
+                    {
+                        "choice":"Red Fort"
+                    },
+                    {
+                        "choice":"Humayun's Tomb"
+                    }
+                ],
+                "answer":"Taj Mahal",
+                "successMessage":"Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned 1628–1658), to house the tomb of his favorite wife, Mumtaz Mahal.",
+                "failureMessage":"Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned 1628–1658), to house the tomb of his favorite wife, Mumtaz Mahal."
+                },
+                {
+                "question":"Which is the park located in the heart of Agra?",
+                "opts":[
+                    {
+                        "choice":"Paliwal Park"
+                    },
+                    {
+                        "choice":"Kaifi Azmi Park"
+                    },
+                    {
+                        "choice":"Humera Park"
+                    },
+                    {
+                        "choice":"Cariappa Park"
+                    }
+                ],
+                "answer":"Paliwal Park",
+                "successMessage":"Paliwal Park, during the British Raj was known as Hewitt Park, is now renamed in memory of Shri Krishna Datta Paliwal, Who was the first finance minister of Uttar Pradesh, when Shri Govind Ballabh Pant was the Chief Minister of U.P State.",
+                "failureMessage":"Paliwal Park is located in the heart of Agra, India. It is spread over an area of around 70 acres (280,000 m2). It also has a small lake and has vast variety of trees."
+                }
+            ]
+        },
+        {
+            "cityId":9,
+            "cityName":"Dubai",
+            "mcqQuestions":[
+                {
+                "question":"\"Be what you want\"…is the main objective of this award-winning edutainment centre. So tell me what is its entrance fee?",
+                "opts":[
+                    {
+                        "choice":"AED 140"
+                    },
+                    {
+                        "choice":"AED 99"
+                    },
+                    {
+                        "choice":"AED 150"
+                    },
+                    {
+                        "choice":"AED 0"
+                    }
+                ],
+                "answer":"AED 140",
+                "successMessage":"KidZania is a safe and interactive, award-winning edutainment centre where children can lead independent lives and get to understand the world of grown-ups better, by being grown-ups themselves.There are over 80 different roles to choose from including that of surgeons, firefighters, chefs, engineers, models, actors, artists, radio hosts, photographers, television hosts, jewelry designers and mechanics among others, making each visit to KidZania a new and exciting experience for children.",
+                "failureMessage":"KidZania is a safe and interactive, award-winning edutainment centre where children can lead independent lives and get to understand the world of grown-ups better, by being grown-ups themselves.There are over 80 different roles to choose from including that of surgeons, firefighters, chefs, engineers, models, actors, artists, radio hosts, photographers, television hosts, jewelry designers and mechanics among others, making each visit to KidZania a new and exciting experience for children."
+                },
+                {
+                "question":"Find the prehistorical dino kept in the souk dome and tell me what is it called?",
+                "opts":[
+                    {
+                        "choice":"Alvarezsaurus"
+                    },
+                    {
+                        "choice":"Albertaceratops"
+                    },
+                    {
+                        "choice":"Ampelosaurus"
+                    },
+                    {
+                        "choice":"Amphicoelias"
+                    }
+                ],
+                "answer":"Amphicoelias",
+                "successMessage":"This dinosaur skeleton was discovered in 2008 at the Dana Quarry in Wyoming, USA, and air-freighted to Dubai. When discovered, the exhibit was found in a sleeping position.The dinosaur could have died during a drought. Dana Quarry, where its skeleton was found, was a natural trap. Both predator and prey came here seeking water to drink.The skeleton is 80 ft (24.4 metres) long and 25 ft (7.6 metre) high a sprightly young adult",
+                "failureMessage":"Amphicoelias - This dinosaur skeleton was discovered in 2008 at the Dana Quarry in Wyoming, USA, and air-freighted to Dubai. When discovered, the exhibit was found in a sleeping position.The dinosaur could have died during a drought. Dana Quarry, where its skeleton was found, was a natural trap. Both predator and prey came here seeking water to drink.The skeleton is 80 ft (24.4 metres) long and 25 ft (7.6 metre) high a sprightly young adult."
+                }
+            ]
+        },
+        {
+            "cityId":10,
+            "cityName":"Mountain View",
+            "mcqQuestions":[
+                {
+                "question":"This company's informal corporate motto was \"Don't be evil\".",
+                "opts":[
+                    {
+                        "choice":"IndiSparrow"
+                    },
+                    {
+                        "choice":"Google"
+                    },
+                    {
+                        "choice":"LinkedIn"
+                    },
+                    {
+                        "choice":"Y Combinator"
+                    }
+                ],
+                "answer":"Google",
+                "successMessage":"Google began in 1996 as a research project by Larry Page and Sergey Brin Ph.D. students at Stanford University.Formally incorporated their company Google, on September 4,1998 at a friend's garage in Menlo Park,CA. By the end of 1998, Google had an index of about 60 million pages.Home page was still marked \"BETA\", but an article in Salon.com already argued that Google's search results were better than those of competitors and praised it for being more technologically innovative.",
+                "failureMessage":"Google began in 1996 as a research project by Larry Page and Sergey Brin Ph.D. students at Stanford University.Formally incorporated their company Google, on September 4,1998 at a friend's garage in Menlo Park,CA. By the end of 1998, Google had an index of about 60 million pages.Home page was still marked \"BETA\", but an article in Salon.com already argued that Google's search results were better than those of competitors and praised it for being more technologically innovative."
+                },
+                {
+                "question":"Which is the largest park in the Mountain View city?",
+                "opts":[
+                    {
+                        "choice":"Cuesta Park"
+                    },
+                    {
+                        "choice":"Shoreline Park"
+                    },
+                    {
+                        "choice":"Varsity Park"
+                    },
+                    {
+                        "choice":"Monta Loma Park"
+                    }
+                ],
+                "answer":"Shoreline Park",
+                "successMessage":"The largest park in the city is Shoreline Park, which was built on a landfill and runs along the Bay north of U.S. Route 101. It includes Shoreline Amphitheatre, Shoreline Golf Course, as well as Rengstorff House, which is listed in the National Register of Historic Places.",
+                "failureMessage":"The largest park in the city is Shoreline Park, which was built on a landfill and runs along the Bay north of U.S. Route 101. It includes Shoreline Amphitheatre, Shoreline Golf Course, as well as Rengstorff House, which is listed in the National Register of Historic Places."
+                }
+            ]
+        },
+        {
+            "cityId":21,
+            "cityName":"Make Heritage Fun",
+            "mcqQuestions":[
+                {
+                "question":"This company's informal corporate motto was \"Don't be evil\".",
+                "opts":[
+                    {
+                        "choice":"IndiSparrow"
+                    },
+                    {
+                        "choice":"Google"
+                    },
+                    {
+                        "choice":"LinkedIn"
+                    },
+                    {
+                        "choice":"Y Combinator"
+                    }
+                ],
+                "answer":"Google",
+                "successMessage":"Google began in 1996 as a research project by Larry Page and Sergey Brin Ph.D. students at Stanford University.Formally incorporated their company Google, on September 4,1998 at a friend's garage in Menlo Park,CA. By the end of 1998, Google had an index of about 60 million pages.Home page was still marked \"BETA\", but an article in Salon.com already argued that Google's search results were better than those of competitors and praised it for being more technologically innovative.",
+                "failureMessage":"Google began in 1996 as a research project by Larry Page and Sergey Brin Ph.D. students at Stanford University.Formally incorporated their company Google, on September 4,1998 at a friend's garage in Menlo Park,CA. By the end of 1998, Google had an index of about 60 million pages.Home page was still marked \"BETA\", but an article in Salon.com already argued that Google's search results were better than those of competitors and praised it for being more technologically innovative."
+                },
+                {
+                "question":"Which is the largest park in the Mountain View city?",
+                "opts":[
+                    {
+                        "choice":"Cuesta Park"
+                    },
+                    {
+                        "choice":"Shoreline Park"
+                    },
+                    {
+                        "choice":"Varsity Park"
+                    },
+                    {
+                        "choice":"Monta Loma Park"
+                    }
+                ],
+                "answer":"Shoreline Park",
+                "successMessage":"The largest park in the city is Shoreline Park, which was built on a landfill and runs along the Bay north of U.S. Route 101. It includes Shoreline Amphitheatre, Shoreline Golf Course, as well as Rengstorff House, which is listed in the National Register of Historic Places.",
+                "failureMessage":"The largest park in the city is Shoreline Park, which was built on a landfill and runs along the Bay north of U.S. Route 101. It includes Shoreline Amphitheatre, Shoreline Golf Course, as well as Rengstorff House, which is listed in the National Register of Historic Places."
+                }
+            ]
+        }
+
+  	]
+  }
+}

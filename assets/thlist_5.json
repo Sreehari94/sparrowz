@@ -1,0 +1,46 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 5,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Vantage Points of Taj Mahal",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 11,
+        "treasureHuntDescription": "Gives you the vital Vantage points to get a view of Taj Mahal from outside.",
+        "geoLocationDetails": {
+          "geoId": 30,
+          "latitude": "27.180962",
+          "longitude": "78.017836",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Agra/AgraTopView.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 1,
+            "tagName": "India"
+          },
+          {
+            "tagId": 3,
+            "tagName": "Mughal"
+          },
+          {
+            "tagId": 11,
+            "tagName": "Selfie"
+          }
+        ],
+        "approxTimeToPlay": 90
+      }
+    ]
+  }
+}

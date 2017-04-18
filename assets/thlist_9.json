@@ -1,0 +1,46 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 9,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Highlights of Dubai Mall",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 12,
+        "treasureHuntDescription": "Explore Dubai Mall",
+        "geoLocationDetails": {
+          "geoId": 65,
+          "latitude": "25.198559",
+          "longitude": "55.279603",
+          "fenceRadius": 500
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Dubai/DubaiMall/DubaiMallCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 13,
+            "tagName": "Dubai"
+          },
+          {
+            "tagId": 14,
+            "tagName": "DubaiMall"
+          },
+          {
+            "tagId": 15,
+            "tagName": "ExploreDubai"
+          }
+        ],
+        "approxTimeToPlay": 90
+      }
+    ]
+  }
+}

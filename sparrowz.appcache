@@ -1,0 +1,16 @@
+CACHE MANIFEST
+# 2017-1-6 v1.0.0
+css/custom.css
+css/fontello/css/icon_set_1.css
+css/fontello/css/icon_set_2.css
+css/fontello/css/fontello.css
+js/jquery-1.11.2.min.js
+js/common_scripts_min.js
+js/functions.js
+js/infobox.js
+js/custom.min.js
+js/map_contact.js
+
+
+NETWORK:
+*

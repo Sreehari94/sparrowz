@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html manifest="sparrowz.appcache" type="text/cache-manifest"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Sparrowz app allows gamification of events through scavenger hunts">
+    <meta name="keywords" content="RIO, POKEMON, POKE MON,Sparrowz, SparrowzApp, IndiSparrow, Explore, Travel, Discover, Search, App, treasure+hunt, sparrow, sparrows">
+    <meta name="copyright" content="IndiSparrow Technologies Pvt. Ltd.">
+    <title>Sparrowz - Hop like a Sparrow</title>
+    <!--Facebook fetching meta tags-->
+    <meta property="og:title" content="Play & Discover More!" />
+    <meta property="og:url" content="http://sparrowzapp.com" />
+    <meta property="og:image" content="http://static.sparrowzapp.com/images/common/socialShareBanner.jpg" />
+    <meta property="og:description" content="Travel & explore like never before." />
+    <meta property="og:site_name" content="Sparrowz- Hop like a Sparrow" />
+    <meta property="fb:app_id" content="953225268071296">
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/sparrowz_57x57.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/sparrowz_72x72.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/sparrowz_114x114.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/sparrowz_144x144.png">
+
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/fontello/css/fontello.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_1.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_2.css" rel="stylesheet">
+   <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	
+    <!-- Google web fonts -->
+ <!--   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+        <link href='css/fonts.css' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <style>html, body {height: 100%;}</style>
+    <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-77455759-4', 'auto');
+         ga('send', 'pageview');
+    </script>
+
+        
+</head>
+<body ng-app="Sparrowz" ng-controller="AppCtrl">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=953225268071296";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!--[if lte IE 8]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+<![endif]-->
+
+    <div id="preloader">
+        <div class="sk-spinner sk-spinner-wave">
+            <div class="sk-rect1"></div>
+            <div class="sk-rect2"></div>
+            <div class="sk-rect3"></div>
+            <div class="sk-rect4"></div>
+            <div class="sk-rect5"></div>
+        </div>
+    </div>
+    <!-- End Preload -->
+
+    <div class="layer"></div>
+    <!-- Mobile menu overlay mask -->
+
+    <!-- Header Plain:  add the id plain to header and change logo.png to logo_sticky.png ======================= -->
+    <header id="plain">
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                     <div id="logo_home">
+                    	<h1><a href="index.html" title="Sparrowz App">Sparrowz App</a></h1>
+                    </div>
+                </div>
+                <nav class="col-md-9 col-sm-9 col-xs-9">
+                    <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
+                    <div class="main-menu">
+                        <div id="header_menu">
+                            <img src="img/logo.png" width="160" height="34" alt="Sparrowz App" data-retina="true">
+                        </div>
+                        <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
+                        <ul>
+                            
+                            <li class="submenu">
+                                <a href="index.html" class="menu_style" onclick="homePage()"><b>Home</b></a>
+                            </li>
+
+                            <li class="submenu">
+                                <a href="events.html" onclick="eventsPage()"><b>Events&nbsp;<i><img src="img/new.png" alt="new"></i></b></a>
+                            </li>
+
+                            <li class="submenu">
+                                <a href="howtoplay.html" onclick="howtoplayPage()"><b>How to Play</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="download.html" onclick="downloadPage()"><b>Download</b></a>
+                            </li>
+
+                            <li class="submenu">
+                                <a href="contact_us.html" onclick="contactPage()"><b>Contact</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="http://www.sparrowzapp.com/blog/" target="_blank" onclick="blogPage()"><b>Blog</b></a>
+                            </li>
+                        </ul>
+                    </div><!-- End main-menu -->
+              <!--       <ul id="top_tools">
+                        <li>
+                            <div class="dropdown dropdown-search">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
+                                <div class="dropdown-menu">
+                                    <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search...">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button" style="margin-left:0;">
+                                            <i class="icon-search"></i>
+                                            </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div><!-- container -->
+    </header><!-- End Header -->
+    <!-- <div class="container-fluid">
+        <div class="row"> -->
+            <!-- <div class="card">
+                <div class="mcq_form">
+                    <p class="mcq-question"><b>Que:&nbsp;</b>{{question}}</p>
+                    <div class="control-group" ng-repeat="opts in mcqOptions track by $index">
+                        <label class="control control--radio">{{opts.choice}}<input type="radio" name="mcq" ng-model="selectedChoice.value" value="{{opts.choice}}"/><div class="control__indicator"></div></label><br/>
+                    </div><a data-toggle="modal" href="#submit">
+                        <center><input type="submit" value="SUBMIT" class="submit_button" ng-click="submitAnswer()"></center>
+                        </a>
+                </div>
+            </div> -->
+            <!-- <a href="download.html">
+                <div class="eventPoster">
+                </div>
+            </a> -->
+            <!--<a href="download.html"> 
+                    <div class="banner_head colored add_bottom_30">
+                        <br/>
+                        <h3>Tired of a&nbsp;<span>guide</span>&nbsp;telling you what to do?</h3>
+                        <h4>Want to <span>challenge</span> yourself?</h4>
+                        <center> <h2><span>Play</span> a scavenger hunt and <span>discover</span> your city</h2></center>
+                        <br/>
+                        <p class="someFreeSpace"></p>
+                    </div>
+                </a>-->
+        <!-- </div>
+    </div> -->
+    <div class="container-fluid marginalSpace">
+    </div>
+    <div class="container-fluid full-height">
+    	<div class="row row-height">
+        	<div class="col-md-7 content-left">
+            <!-- <div ng-repeat="item in thData.treasureHunts track by $index"> -->
+               <div class="row">
+			<!-- End col-md-6 -->
+                <!-- <div class="errorMessage" ng-show="message.data">{{message.data}}</div> -->  
+                <div class="dropdown">
+                    <span class="city_Select">SELECT CITY >&ensp;&ensp;</span>
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" ng-bind='city_name' aria-expanded="false">Bengaluru<span class="caret"></span></button>
+                    <ul class="dropdown-menu" id="citymenu" >
+                        <li ng-repeat="item in cityData.cityList | orderBy : 'cityDisplayName'"><a id="selectCity" ng-click="changeCity(item.cityId, item.cityDisplayName)">{{item.cityDisplayName}}</a></li>
+                    </ul>
+                </div><br/>
+ 				<div class="col-md-6 col-sm-6" ng-repeat="item in thData.treasureHunts">
+					<div class="tour_container">
+						<div class="img_container">
+							<a data-toggle="modal" href="#myModal" ng-click="cardClick(item.treasureHuntName,item.treasureHuntImgUrl[0],item.treasureHuntDescription,item.approxTimeToPlay,item.treasureHuntId)">
+							<img ng-src='{{item.treasureHuntImgUrl[0]}}' class="img-responsive" alt="Image" onerror="this.src='img/no image.jpg'">
+							<div class="ribbon {{item.rate}}"></div>
+							<div class="short_info">
+								<i class="{{item.game_icon}}"></i><span class="tag_section" ng-if="item.treasureHuntTags">{{item.treasureHuntTags[0].tagName}}&nbsp;&nbsp;{{item.treasureHuntTags[1].tagName}}</span>
+							</div>
+							</a>
+						</div>
+						<div class="tour_title">
+							<h3><strong>{{item.treasureHuntName}}</strong></h3>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <div ng-if="item.eventUrl">
+                                        <a href="{{item.eventUrl}}" target="_blank" ng-click="goToEventPage(item.treasureHuntName)"><button type="button" class="ticketButton">Buy Tickets</button></a>
+                                    </div>
+                                    <button type="button" class="freelabel" ng-if="item.thReqCredits==0 && item.eventUrl==null">Free</button>
+                                    <button type="button" class="credits" ng-if="item.thReqCredits!=0 && item.eventUrl==null">{{item.thReqCredits}}&nbsp;Credits</button>
+                                </div>
+                            </div>
+							<!-- <div class="rating">
+                                <span>{{item.vote}}</span>
+							<small>({{item.rating}})</small>
+							</div> --><!-- end rating -->
+                            <div ng-class="{'active': item.treasureHuntId == states.activeItem}" ng-click="onHtmlClick(item)" class="view_on_map">View on map</div>
+						</div>
+					</div><!-- End box tour -->
+				<!-- </div> -->
+				</div><!-- End col-md-6 -->
+			
+            </div><!-- End row -->
+                
+               
+        </div>
+            
+            <div class="col-md-5 map-right hidden-sm hidden-xs">
+            	<div class="map" id="map" style="width:100%; height:100%"></div>
+            </div>
+            
+        </div><!-- End row-->
+    </div><!-- End container-fluid -->
+
+    
+        <footer>
+        <div class="container">
+                <div class='row'>
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Carousel Slides / Quotes -->
+                        <div class="carousel-inner">
+                        <!-- Quote 1 -->
+                            <div class="item active">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                            <!--<img class="img-circle" src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/128.jpg" style="width: 100px;height:100px;">-->
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Loved the running and adventure part!!!&nbsp;<b>"</b></p>
+                                            <small>Akshata</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        <!-- Quote 2 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;The cultural part and getting to know so many things about cubbon park.&nbsp;<b>"</b></p>
+                                            <small>Angely</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        <!-- Quote 3 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Really nice. Something rare and new. Didn't know we knew so little about the everyday structures we pass by. Amazed.&nbsp;<b>"</b></p>
+                                            <small>Sarthak</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 4 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Exploring the park & discovering things that we hadn't done before.&nbsp;<b>"</b></p>
+                                            <small>Almas Ahmed</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 5 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Was a thrilling experience. Would love to attend more of it.&nbsp;<b>"</b></p>
+                                            <small>Upasna</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 6 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;The part that we walked the whole park to find things. This is the first time I explored the park completely.&nbsp;<b>"</b></p>
+                                            <small>Arun</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 7 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Super. 7896 steps inside cubbon park. Enjoyed 90 mins.&nbsp;<b>"</b></p>
+                                            <small>Akshay Vaidian</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <!-- Quote 8 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Was so much fun running all around a beautiful park and doing interesting tasks.&nbsp;<b>"</b></p>
+                                            <small>Payal</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div><!-- Quote 9 -->
+                            <div class="item">
+                                <blockquote>
+                                    <div class="row">
+                                        <div class="col-sm-1 text-center">
+                                            <img class="img-circle" src="img/profile.png" style="width: 70px;height:70px;">
+                                        </div>
+                                        <div class="col-sm-11">
+                                            <p class="reviewStyle"><b>"</b>&nbsp;Truly fascinating hunt. Learn, have fun and connect with the real world...&nbsp;<b>"</b></p>
+                                            <small>Randhir Mishra</small>
+                                        </div>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    <!-- Carousel Buttons Next/Prev -->
+                        <!-- <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a> -->
+                    </div>                             
+                </div>
+            <hr style="color:white">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="https://www.facebook.com/sparrowzapp" target="_blank" onclick="iconFacebookClick()"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/SparrowzApp" target="_blank" onclick="iconTwitterClick()"><i class="icon-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/sparrowzapp/" target="_blank" onclick="iconInstagramClick()"><i class="icon-instagram"></i></a></li>
+                        </ul>
+                        <p style="padding:0px;margin:0px;">© 2016 IndiSparrow Technologies Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </footer><!-- End footer -->
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h4 class="modal-title">{{modalName}}</h4></center>
+                </div>
+                <center><img ng-src="{{modalImage}}" width="300" height="100" class="img-responsive" alt="Image" onerror="this.src='img/no image.jpg'"></center>
+                <div class="modal-body">
+                    <h5><b>Description</b></h5>
+                    <p ng-bind-html='modalDescription'></p>
+                    <h5><b>Approximate Time :</b>{{approx_Time}} min</h5><br/>
+                    <div class="fbShare" onclick="fbShare()">
+                    <div class="fb-share-button" data-href="http://sparrowzapp.com" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsparrowzapp.com%2F&amp;src=sdkpreparse">Share</a></div></div>
+                    <p style="text-align:center">Want to play this game?<br/> Scan the QR using <b>Sparrowz</b> app</p>
+                    <center><img ng-src="img/qr/{{qr_id}}.jpg" alt="QR code" title="Scan the QR code" width=100px; height=100px; onerror="this.src='img/qr/no-qr.jpg'"></center>
+                    <p style="text-align:center">Do not have our app?<br/>
+                    <center><a href="http://onelink.to/sparrowz" target="_blank" onclick="sparrowzDownloadLink()">Download&nbsp;<b>Sparrowz</b></a></center></p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="modal fade" id="submit" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                     <center><span><img ng-src="{{submitImgUrl}}"><b>{{submitMessage}}</b></span></center>
+                     <p class="clueDetail">{{cluedetail}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-- Common scripts -->
+<!-- <script src="js/jquery-1.11.2.min.js"></script> -->
+<!-- <script src="js/common_scripts_min.js"></script>
+<script src="js/functions.js"></script> -->
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){$("ul").click(function(){$("#citymenu").hide()}),$("button").click(function(){$("#citymenu").toggle()})}),$(document).click(function(c){$(c.target).closest("#citymenu").length||$("#citymenu").is(":visible")&&$("#citymenu").hide()});
+</script>
+<script src="js/custom.min.js"></script>
+ <!-- Map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQqpKOYqupeGIHoIgpo12Zsm2wrtOOC3s" type="text/javascript"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/web_constant.js"></script>
+<script src="js/app.min.js"></script>
+<script src="js/infobox.js"></script>
+<!-- <script src="js/ga.js"></script> -->
+</body>
+</html>

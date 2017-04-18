@@ -1,0 +1,212 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Vantage of Christ Redeemer",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 29,
+        "treasureHuntDescription": "Christ the redeemer is one of the New Seven Wonders of the World. As such, the Cristo Redentor statue in Rio De Janeiro, Brazil, is photographed by thousands each year. Christ the Redeemer statue speaks a bit differently to each photographer who captures the image as seen in their magnificent mind’s eye. This game helps you to get the best Christ Redeemer views from the city.",
+        "geoLocationDetails": {
+          "geoId": 68,
+          "latitude": "-22.951925",
+          "longitude": "-43.210036",
+          "fenceRadius": 1000
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/Christ_Vantage/vantageCoverT.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 44,
+            "tagName": "ChristRedeemer"
+          },
+          {
+            "tagId": 45,
+            "tagName": "ChristViews"
+          },
+          {
+            "tagId": 46,
+            "tagName": "PhotoPointsOfChristRedeemer"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "IPanema Beach Walk",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 27,
+        "treasureHuntDescription": "Explore the IPanema beach and get to know some historic events on this beach. Take some stunning selfies and clear sky pictures. Ipanema is known for its lively night life scene and lovely beaches.",
+        "geoLocationDetails": {
+          "geoId": 64,
+          "latitude": "-22.987057",
+          "longitude": "-43.204789",
+          "fenceRadius": 150
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/iPanema_Beach/IPanema_Cover1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 38,
+            "tagName": "BeachWalk"
+          },
+          {
+            "tagId": 39,
+            "tagName": "BeachSelfies"
+          },
+          {
+            "tagId": 40,
+            "tagName": "SexyBeaches"
+          }
+        ],
+        "approxTimeToPlay": 60
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Explore Centro By Walk",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 24,
+        "treasureHuntDescription": "Explore City Centre/Centro by walk. Takes around 90 minutes and revels some historic places in city centro",
+        "geoLocationDetails": {
+          "geoId": 59,
+          "latitude": "-22.903891",
+          "longitude": "-43.173793",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/Centro_Walk/CentroCover1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 36,
+            "tagName": "RioCentro"
+          },
+          {
+            "tagId": 37,
+            "tagName": "OldCityWalk"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Rio Marathon Route Hunt",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 23,
+        "treasureHuntDescription": "Explore the Scenic and Historic Rio Marathon route. <BR/><BR/>Starting in the Sambódromo, home to the world-famous Rio Carnival parades, the race continued on two of the city's most imposing streets through the heart of Rio's historic centre, down to Flamengo Park and Botafogo beach and then back to the city centre and the port area. <BR/><BR/>Covers approximately around 8KMs and takes around 3 hours. Rent a bike or take a walk.",
+        "geoLocationDetails": {
+          "geoId": 50,
+          "latitude": "-22.911255",
+          "longitude": "-43.196772",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/Marathon_Route/MarathonCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 33,
+            "tagName": "RioMarathonRoute"
+          },
+          {
+            "tagId": 34,
+            "tagName": "ScenicRoute"
+          },
+          {
+            "tagId": 35,
+            "tagName": "WalkLikeAMarathoner"
+          }
+        ],
+        "approxTimeToPlay": 240
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "IPanema Street Hunt",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 22,
+        "treasureHuntDescription": "Explore the IPanema streets. Ipanema is a neighborhood that summarizes the best Rio de Janeiro has to offer. Walk through the streets and find out the treasure places. Ipanema is known for its lively night life scene and lovely beaches.",
+        "geoLocationDetails": {
+          "geoId": 45,
+          "latitude": "-22.983919",
+          "longitude": "-43.213590",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/iPanema_Street/iPanema1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 28,
+            "tagName": "OldRio"
+          },
+          {
+            "tagId": 31,
+            "tagName": "IPanemaStreet"
+          },
+          {
+            "tagId": 32,
+            "tagName": "Save$79"
+          }
+        ],
+        "approxTimeToPlay": 120
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Old Rio By Foot",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 21,
+        "treasureHuntDescription": "Take an afternoon sightseeing tour of Old Rio on foot, and get a feeling for the legends and history woven around the narrow streets and superb baroque buildings of downtown Rio de Janeiro.You'll gain unforgettable insights into Rio and its history",
+        "geoLocationDetails": {
+          "geoId": 41,
+          "latitude": "-22.896830",
+          "longitude": "-43.177914",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/OldRio_ByFoot/Rio_Old.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 28,
+            "tagName": "OldRio"
+          },
+          {
+            "tagId": 29,
+            "tagName": "RioOlympics"
+          },
+          {
+            "tagId": 30,
+            "tagName": "RioVintage"
+          }
+        ],
+        "approxTimeToPlay": 180
+      }
+    ]
+  }
+}

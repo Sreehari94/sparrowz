@@ -1,0 +1,46 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 2,
+        "corporateName": "Marriott Hotels",
+        "corporateId": 6,
+        "treasureHuntName": "Explore Fort Kochi",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 8,
+        "treasureHuntDescription": "An exclusive treasure hunt experience to explore Fort Kochi from Marriott for the elite guests",
+        "geoLocationDetails": {
+          "geoId": 23,
+          "latitude": "9.968258",
+          "longitude": "76.243270",
+          "fenceRadius": 100
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Kochi/FortKochi/Marriott_KochiJ.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 4,
+            "tagName": "FortKochi"
+          },
+          {
+            "tagId": 5,
+            "tagName": "Marriott"
+          },
+          {
+            "tagId": 7,
+            "tagName": "MCube"
+          }
+        ],
+        "approxTimeToPlay": 120
+      }
+    ]
+  }
+}

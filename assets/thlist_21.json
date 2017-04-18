@@ -1,0 +1,216 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 21,
+        "corporateName": "Go Unesco",
+        "corporateId": 5,
+        "treasureHuntName": "UWI Mona Heritage Trails",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 31,
+        "treasureHuntDescription": "UWI Mona Heritage Trails",
+        "geoLocationDetails": {
+          "geoId": 94,
+          "latitude": "18.0065871",
+          "longitude": "-76.7489647",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Jamaica/Jamaica.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 50,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 51,
+            "tagName": "Kingston"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 21,
+        "corporateName": "Go Unesco",
+        "corporateId": 5,
+        "treasureHuntName": "Patiala Gedhi Heritage",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 32,
+        "treasureHuntDescription": "The Heritage treasure hunt of Patiala is planned to provide a glimpse into the glorious and valiant past and cherish memories of religious serenity and architectural beauty of which the present city of Patiala is proud.",
+        "geoLocationDetails": {
+          "geoId": 95,
+          "latitude": "30.320166",
+          "longitude": "76.401181",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Patiala/PatialaCover_Fndtn.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 51,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Patiala"
+          },
+          {
+            "tagId": 53,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 21,
+        "corporateName": "Go Unesco",
+        "corporateId": 5,
+        "treasureHuntName": "Exploring the Royal Trail",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 33,
+        "treasureHuntDescription": "Heritage treasure hunt of lahore will take you to some highlight heritage sites and help you know better about these places",
+        "geoLocationDetails": {
+          "geoId": 96,
+          "latitude": "31.587151",
+          "longitude": "74.317782",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Lahore/LahoreCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 51,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Lahore"
+          },
+          {
+            "tagId": 54,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 60
+      },
+      {
+        "cityId": 21,
+        "corporateName": "Go Unesco",
+        "corporateId": 5,
+        "treasureHuntName": "Nairobi Promenade",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 35,
+        "treasureHuntDescription": "A short and quick game to unveal the hidden treasures in Nairobi Promenade.",
+        "geoLocationDetails": {
+          "geoId": 98,
+          "latitude": "-1.284907",
+          "longitude": "36.825919",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Nairobi/NairobiCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 51,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Nairobi"
+          },
+          {
+            "tagId": 58,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 30
+      },
+      {
+        "cityId": 21,
+        "corporateName": "Go Unesco",
+        "corporateId": 5,
+        "treasureHuntName": "Byblos Heritage treasure",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 36,
+        "treasureHuntDescription": "Byblos is a Mediterranean city in the Mount Lebanon Governorate, Lebanon. It is believed to have been occupied first between 8800 and 7000 BC.It is one of the cities suggested as the oldest continuously inhabited city in the world[citation needed] and the site has been continuously inhabited since 5000 BC. Play this treasure hunt and go to the heritage sites.",
+        "geoLocationDetails": {
+          "geoId": 99,
+          "latitude": "34.123022",
+          "longitude": "35.651977",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Byblos/ByblosCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 51,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Byblos"
+          },
+          {
+            "tagId": 59,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 60
+      },
+      {
+        "cityId": 17,
+        "corporateName": "GoUNESCO",
+        "corporateId": 5,
+        "treasureHuntName": "Explore Heritage Rome ",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 37,
+        "treasureHuntDescription": "Explore Rome Through the Lens of Pop Culture and History",
+        "geoLocationDetails": {
+          "geoId": 105,
+          "latitude": "41.8986108",
+          "longitude": "12.476872",
+          "fenceRadius": 400
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/MakeHeritageFun/Rome/Rome_Cover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 51,
+            "tagName": "MakeHeritageFun"
+          },
+          {
+            "tagId": 52,
+            "tagName": "Rome"
+          },
+          {
+            "tagId": 60,
+            "tagName": "Sept25"
+          }
+        ],
+        "approxTimeToPlay": 90
+      }
+    ]
+  }
+}

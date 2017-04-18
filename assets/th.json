@@ -1,0 +1,178 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "IPanema Beach Walk",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 27,
+        "treasureHuntDescription": "IPanema Beach hunt",
+        "geoLocationDetails": {
+          "geoId": 64,
+          "latitude": "-22.987057",
+          "longitude": "-43.204789",
+          "fenceRadius": 150
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/iPanema_Beach/IPanema_Cover1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 38,
+            "tagName": "BeachWalk"
+          },
+          {
+            "tagId": 39,
+            "tagName": "BeachSelfies"
+          },
+          {
+            "tagId": 40,
+            "tagName": "SexyBeaches"
+          }
+        ],
+        "approxTimeToPlay": 0
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Explore Centro By Walk",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 24,
+        "treasureHuntDescription": "Centro Walk",
+        "geoLocationDetails": {
+          "geoId": 59,
+          "latitude": "-22.903891",
+          "longitude": "-43.173793",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/Centro_Walk/CentroCover1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 36,
+            "tagName": "RioCentro"
+          },
+          {
+            "tagId": 37,
+            "tagName": "OldCityWalk"
+          }
+        ],
+        "approxTimeToPlay": 0
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Rio Marathon Route Hunt",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 23,
+        "treasureHuntDescription": "Marathon Route hunt",
+        "geoLocationDetails": {
+          "geoId": 50,
+          "latitude": "-22.911255",
+          "longitude": "-43.196772",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/Marathon_Route/MarathonCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 33,
+            "tagName": "RioMarathonRoute"
+          },
+          {
+            "tagId": 34,
+            "tagName": "ScenicRoute"
+          },
+          {
+            "tagId": 35,
+            "tagName": "WalkLikeAMarathoner"
+          }
+        ],
+        "approxTimeToPlay": 0
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "IPanema Street Hunt",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 22,
+        "treasureHuntDescription": "IPanema Neighbourhood",
+        "geoLocationDetails": {
+          "geoId": 45,
+          "latitude": "-22.983919",
+          "longitude": "-43.213590",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/iPanema_Street/iPanema1.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 28,
+            "tagName": "OldRio"
+          },
+          {
+            "tagId": 31,
+            "tagName": "IPanemaStreet"
+          },
+          {
+            "tagId": 32,
+            "tagName": "Save$79"
+          }
+        ],
+        "approxTimeToPlay": 0
+      },
+      {
+        "cityId": 11,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Old Rio By Foot",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 21,
+        "treasureHuntDescription": "Old Rio By Foot",
+        "geoLocationDetails": {
+          "geoId": 41,
+          "latitude": "-22.896830",
+          "longitude": "-43.177914",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Rio_Olympics/OldRio_ByFoot/Rio_Old.JPG"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 28,
+            "tagName": "OldRio"
+          },
+          {
+            "tagId": 29,
+            "tagName": "RioOlympics"
+          },
+          {
+            "tagId": 30,
+            "tagName": "RioVintage"
+          }
+        ],
+        "approxTimeToPlay": 0
+      }
+    ]
+  }
+}

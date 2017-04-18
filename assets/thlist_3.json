@@ -1,0 +1,42 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 3,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Explore Qutub Minar",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 9,
+        "treasureHuntDescription": "A quick short game to explore hidden facts about Qutub minar",
+        "geoLocationDetails": {
+          "geoId": 28,
+          "latitude": "28.524405",
+          "longitude": "77.185467",
+          "fenceRadius": 250
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Delhi/Qutub/Qutub_THImage.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 8,
+            "tagName": "Delhi"
+          },
+          {
+            "tagId": 9,
+            "tagName": "QutubMinar"
+          }
+        ],
+        "approxTimeToPlay": 30
+      }
+    ]
+  }
+}

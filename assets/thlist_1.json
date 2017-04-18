@@ -1,0 +1,230 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 1,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Explore 'The Black Pearl'",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 34,
+        "treasureHuntDescription": "India's largest pirate themed restaurant and Bangalore's coolest hangout place is now hosting a special treasure hunt to make it more memorable. Play and win exciting rewards.",
+        "geoLocationDetails": {
+          "geoId": 97,
+          "latitude": "12.934466",
+          "longitude": "77.616056",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/BlackPearl/PirateCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 55,
+            "tagName": "Kormangala"
+          },
+          {
+            "tagId": 56,
+            "tagName": "PirateThemed"
+          },
+          {
+            "tagId": 57,
+            "tagName": "AdventureMeal"
+          }
+        ],
+        "approxTimeToPlay": 30
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Explore IIMB",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 28,
+        "treasureHuntDescription": "A Quick Game that takes you to highlight places inside IIMB",
+        "geoLocationDetails": {
+          "geoId": 66,
+          "latitude": "12.893872",
+          "longitude": "77.600887",
+          "fenceRadius": 500
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/IIMB/Cover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 41,
+            "tagName": "IIMB"
+          },
+          {
+            "tagId": 42,
+            "tagName": "Platform4Startup"
+          },
+          {
+            "tagId": 43,
+            "tagName": "CampusTour"
+          }
+        ],
+        "approxTimeToPlay": 60
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Malleswaram GO Challenge",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 15,
+        "treasureHuntDescription": "Treasure hunt designed to find all the highlight places of Malleshwaram",
+        "geoLocationDetails": {
+          "geoId": 35,
+          "latitude": "13.004327",
+          "longitude": "77.572421",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/Malleshwaram/malleswaram.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 23,
+            "tagName": "HeritageBengaluru"
+          },
+          {
+            "tagId": 24,
+            "tagName": "OldCityBengaluru"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Lalbagh Challenge",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 14,
+        "treasureHuntDescription": "Treasure hunt to tickle your knowledge of lalbagh garden.",
+        "geoLocationDetails": {
+          "geoId": 34,
+          "latitude": "12.949845",
+          "longitude": "77.586590",
+          "fenceRadius": 300
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/Lalbagh/LBCover.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 19,
+            "tagName": "LalbaghChallenge"
+          },
+          {
+            "tagId": 20,
+            "tagName": "IKnowLalbagh"
+          },
+          {
+            "tagId": 21,
+            "tagName": "Lalbagh"
+          }
+        ],
+        "approxTimeToPlay": 90
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Cubbon Reebok Fitness",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 13,
+        "treasureHuntDescription": "Treasure hunt for the elite Reebok fitnessgroup",
+        "geoLocationDetails": {
+          "geoId": 58,
+          "latitude": "12.974599",
+          "longitude": "77.592751",
+          "fenceRadius": 500
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/CubbonFitness/CubbonPark.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 16,
+            "tagName": "Reebok"
+          },
+          {
+            "tagId": 17,
+            "tagName": "CubbonChallenge"
+          },
+          {
+            "tagId": 18,
+            "tagName": "SundayFitness"
+          }
+        ],
+        "approxTimeToPlay": 120
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Go Heritage Hunt",
+        "corporateId": 5,
+        "treasureHuntName": "Go Heritage Hunt",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 7,
+        "treasureHuntDescription": "To Explore the Heritage sites of Namma Bengaluru",
+        "geoLocationDetails": {
+          "geoId": 12,
+          "latitude": "12.962476",
+          "longitude": "77.575816",
+          "fenceRadius": 0
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/GoUnesco/exploreBangalore/GoUnesco1.png"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 1,
+            "tagName": "India"
+          }
+        ],
+        "approxTimeToPlay": 150
+      },
+      {
+        "cityId": 1,
+        "corporateName": "Shriram Spandana",
+        "corporateId": 4,
+        "treasureHuntName": "Discover SS",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 6,
+        "treasureHuntDescription": "Discover Shriram Spandana",
+        "geoLocationDetails": {
+          "geoId": 11,
+          "latitude": "12.944065",
+          "longitude": "77.652689",
+          "fenceRadius": 0
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Bengaluru/Spandana/Discover_SS/SS.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 1,
+            "tagName": "India"
+          }
+        ],
+        "approxTimeToPlay": 60
+      }
+    ]
+  }
+}

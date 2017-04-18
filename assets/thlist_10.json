@@ -1,0 +1,42 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 10,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Mountain View",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 2,
+        "treasureHuntDescription": "Hello there!. Treasure hunt for Mountain View City. A sample of what our App can create with crowd sourced data and technology intelligence.*",
+        "geoLocationDetails": {
+          "geoId": 39,
+          "latitude": "37.419378",
+          "longitude": "-122.087494",
+          "fenceRadius": 200
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/USA/CA/MV-CA.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 26,
+            "tagName": "Technology Tour"
+          },
+          {
+            "tagId": 27,
+            "tagName": "YC"
+          }
+        ],
+        "approxTimeToPlay": 120
+      }
+    ]
+  }
+}

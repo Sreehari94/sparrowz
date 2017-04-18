@@ -1,0 +1,46 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "Browse TreasureHunts List Found"
+    }
+  },
+  "body": {
+    "treasureHunts": [
+      {
+        "cityId": 4,
+        "corporateName": "Sparrowz Hunts",
+        "corporateId": 2,
+        "treasureHuntName": "Photo Points in Mumbai",
+        "androidMinAppVersion": "Test",
+        "iosMinAppVersion": "Test",
+        "treasureHuntId": 10,
+        "treasureHuntDescription": "Photo Points in Mumbai",
+        "geoLocationDetails": {
+          "geoId": 29,
+          "latitude": "18.939866",
+          "longitude": "72.835441",
+          "fenceRadius": 250
+        },
+        "treasureHuntImgUrl": [
+          "http://static.sparrowzapp.com/images/Mumbai/Mumbai.jpg"
+        ],
+        "treasureHuntTags": [
+          {
+            "tagId": 10,
+            "tagName": "Mumbai"
+          },
+          {
+            "tagId": 11,
+            "tagName": "Selfie"
+          },
+          {
+            "tagId": 12,
+            "tagName": "India"
+          }
+        ],
+        "approxTimeToPlay": 45
+      }
+    ]
+  }
+}

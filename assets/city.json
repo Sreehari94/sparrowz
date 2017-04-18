@@ -1,0 +1,75 @@
+{
+  "header": {
+    "status": {
+      "statusCode": 0,
+      "statusMessage": "City data Found successfully."
+    }
+  },
+  "body": {
+    "cityList": [
+      {
+        "cityId": 1,
+        "cityName":"Bengaluru",
+        "cityDisplayName": "Bengaluru",
+        "latitude":13.004327,
+        "longitude":77.572421
+      },
+      {
+        "cityId": 2,
+        "cityDisplayName": "Kochi",
+        "cityName":"Kochi",
+        "latitude":9.968258,
+        "longitude":76.243270
+      },
+      {
+        "cityId": 3,
+        "cityDisplayName": "Delhi",
+        "cityName":"Delhi",
+        "latitude":28.524405,
+        "longitude":77.185467
+      },
+      {
+        "cityId": 4,
+        "cityDisplayName": "Mumbai",
+        "cityName":"Mumbai",
+        "latitude":18.939866,
+        "longitude":72.835441
+      },
+      {
+        "cityId": 5,
+        "cityDisplayName": "Agra",
+        "cityName":"Agra",
+        "latitude":27.180962,
+        "longitude":78.017836
+      },
+      {
+        "cityId": 9,
+        "cityDisplayName": "Dubai",
+        "cityName":"Dubai",
+        "latitude":25.198559,
+        "longitude":55.279603
+      },
+      {
+        "cityId": 10,
+        "cityDisplayName": "Mt.View",
+        "cityName":"Mountain View",
+        "latitude":37.419378,
+        "longitude":-122.087494
+      },
+      {
+        "cityId": 11,
+        "cityDisplayName": "Rio",
+        "cityName":"Rio De Janeiro",
+        "latitude":-22.896830,
+        "longitude":-43.177914
+      },
+      {
+        "cityId": 21,
+        "cityDisplayName": "Heritage Day",
+        "cityName":"Make Heritage Fun",
+        "latitude":18.0065871,
+        "longitude":-76.7489647
+      }
+    ]
+  }
+}

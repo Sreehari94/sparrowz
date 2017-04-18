@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html manifest="sparrowz.appcache"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Be the lucky one to win a flight ticket.">
+    <meta name="keywords" content="RIO, POKEMON, POKE MON,Sparrowz, SparrowzApp, IndiSparrow, Explore, Travel, Discover, Search, App, treasure+hunt, sparrow, sparrows">
+    <title>Rio Contest - Sparrowz</title>
+    
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/sparrowz_57x57.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/sparrowz_72x72.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/sparrowz_114x114.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/sparrowz_144x144.png">
+
+    <!-- CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+   <!--  <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/fontello/css/fontello.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_1.css" rel="stylesheet">
+    <link href="css/fontello/css/icon_set_2.css" rel="stylesheet">
+	
+    <!-- Google web fonts -->
+   <!-- <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
+        <link href='css/fonts.css' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+         ga('create', 'UA-77455759-4', 'auto');
+         ga('send', 'pageview');
+    </script>    
+</head>
+<body>
+
+<!--[if lte IE 8]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+<![endif]-->
+
+    <div id="preloader">
+        <div class="sk-spinner sk-spinner-wave">
+            <div class="sk-rect1"></div>
+            <div class="sk-rect2"></div>
+            <div class="sk-rect3"></div>
+            <div class="sk-rect4"></div>
+            <div class="sk-rect5"></div>
+        </div>
+    </div>
+    <!-- End Preload -->
+
+    <div class="layer"></div>
+    <!-- Mobile menu overlay mask -->
+
+    <!-- Header================================================== -->
+   <header id="plain">
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                     <div id="logo_home">
+                        <h1><a href="index.html" title="Sparrowz App">Sparrowz App</a></h1>
+                    </div>
+                </div>
+                <nav class="col-md-9 col-sm-9 col-xs-9">
+                    <a class="cmn-toggle-switch cmn-toggle-switch__htx open_close" href="javascript:void(0);"><span>Menu mobile</span></a>
+                    <div class="main-menu">
+                        <div id="header_menu">
+                            <img src="img/logo.png" width="160" height="34" alt="Sparrowz App" data-retina="true">
+                        </div>
+                        <a href="#" class="open_close" id="close_in"><i class="icon_set_1_icon-77"></i></a>
+                        <ul>
+                            
+                            <li class="submenu">
+                                <a href="index.html" onclick="homePage()"><b>Home</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="offer.html" class="menu_style" onclick="homePage()"><b>Rio Contest&nbsp;<i><img src="img/new.png" alt="new"></i></b></a>
+                            </li>
+
+                            <li class="submenu">
+                                <a href="howtoplay.html" onclick="howtoplayPage()"><b>How to Play</b></a>
+                            </li>
+                            <li class="submenu">
+                                <a href="download.html" onclick="downloadPage()"><b>Download</b></a>
+                            </li>
+
+                            <li class="submenu">
+                                <a href="contact_us.html" onclick="contactPage()"><b>Contact</b></a>
+                            </li>
+                            
+                        </ul>
+                    </div><!-- End main-menu -->
+              <!--       <ul id="top_tools">
+                        <li>
+                            <div class="dropdown dropdown-search">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
+                                <div class="dropdown-menu">
+                                    <form>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search...">
+                                            <span class="input-group-btn">
+                                            <button class="btn btn-default" type="button" style="margin-left:0;">
+                                            <i class="icon-search"></i>
+                                            </button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div><!-- container -->
+    </header><!-- End Header -->
+    
+<section id="hero">
+ 	<div class="intro_title error">
+    	<h1 class="animated fadeInDown">Play</h1>
+        <p class="animated fadeInDown">& <br/>Discover More</p>
+       <a href="index.html" class="animated fadeInUp button_intro">Back to home</a>
+	</div>
+                
+</section><!-- End hero -->
+
+        <div class="container margin_60">
+            
+            <div class="banner colored add_bottom_30">
+                 <img src="img/flight.png" class="offer" alt="Image">
+                <h4><span>Weekly</span>&nbsp;Winners</h4>
+                <p>
+                    Play Rio Games & Get a chance to win 2 flight tickets to your dream destination.
+                </p>
+                <a data-toggle="modal" href="#termModal">**Terms & conditions apply.</a>
+            </div>
+<br/>
+            <div class="banner colored add_bottom_30">
+                <img src="img/voucher.png" class="offer" alt="Image">
+                <h4><span>Daily</span>&nbsp;Winners</h4>
+                <p>
+                   Play Rio Games & Get your return flight ticket reimbursed.
+                </p>
+                <a data-toggle="modal" href="#termModal">**Terms & conditions apply.</a>
+            </div>
+            <br/>
+            <div class="banner">
+                <center><h4>What are you&nbsp;<span>waiting</span>&nbsp;for?</h4></center>
+                <br/>
+                <center><h5>Download the&nbsp;<a href="http://onelink.to/sparrowz" style="color:#d95075">Sparrowz</a>&nbsp;app now.</h5></center>
+                <br/>
+                <center><h4>Dream.&nbsp;<span>Discover.</span>&nbsp;Explore.</h4></center>
+            </div>
+            <!-- <div class="row">
+                <div class="col-md-3 col-sm-6 text-center">
+                    <h4><span>Sightseen tour</span> booking</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                   
+                    <h4><span>Transfer</span> booking</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                   
+                    <h4><span>Tour guide</span> booking</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 text-center">
+                    
+                    <h4><span>Hotel</span> booking</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex.
+                    </p>
+                </div>
+            </div>-->
+        </div><!-- End container -->
+<div class="modal fade" id="termModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <center><h4 class="modal-title">Terms & Conditions</h4></center>
+                    <br/>
+                    <p>Thank you for signing up for the <b>Rio contest</b>.</p>
+                    <br/>
+                 <ul style="list-style-type:disc" class="list_content">
+                    <li>All Contest participants consent to Sparrowz App facebook page and Twitter Handle connecting and interacting with them.</li>
+                    <li>Any unfair practice used by participants will lead to automatic disqualification without information.</li>
+                    <li>Final decision on winners is the sole prerogative of Sparrowz App.</li>
+                    <li>Often winners will not be finalise by only points awarded in the game but for the quality of images taken in selfie / image challenge.</li>
+                    <li>All images taken by users during the game / contest can be used by sparrowz for promotion of the contest and to congratulate the winner.</li>
+                    <li>Users retain rights to any image they take and create, Sparrowz though is granted unequivocal permission to use these images as they deem fit.</li>
+                    <li>Any daily event will have a winner declared only if there are at least 100 participants for that game during that day.</li>
+                    <li>In case there aren’t daily winners for a particular game, then weekly winners will be announced, if at least 250 participant for the game in the week.</li>
+                    <li>All rewards will be provided only on verification of travel completion.</li>
+                    <li>Rewards might be subject to local tax laws of home nation of receiver.</li>
+                    <li>If for some reason rewards can’t be given cash, there will be an equivalent reward offered in App credits.</li>
+                    <li>All rewards for a single participation are limited to a max reimbursement of USD 250.</li>
+                    <li>For participants without flight tickets reward will be a cash voucher of USD 100.</li>
+                </ul>
+                </div>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+	<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="social_footer">
+                        <ul>
+                            <li><a href="https://www.facebook.com/sparrowzapp" target="_blank" onclick="iconFacebookClick()"><i class="icon-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/SparrowzApp" target="_blank" onclick="iconTwitterClick()"><i class="icon-twitter"></i></a></li>
+                        </ul>
+                        <p>© 2016 IndiSparrow Technologies Pvt. Ltd.</p>
+                    </div>
+                </div>
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </footer><!-- End footer -->
+
+<div id="toTop"></div><!-- Back to top button -->
+
+ <!-- Common scripts -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/common_scripts_min.js"></script>
+<script src="js/functions.js"></script>
+
+  </body>
+</html>
